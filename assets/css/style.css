@@ -13,6 +13,10 @@
     --border-color: #dee2e6;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     color: var(--text-color);
