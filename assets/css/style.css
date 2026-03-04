@@ -292,3 +292,66 @@ a:hover {
 .card-img-top[src*="placeholder"] {
     background: linear-gradient(135deg, #e0e0e0 0%, #c0c0c0 100%);
 }
+
+/* Award Cards */
+.award-card {
+    background: linear-gradient(135deg, #f0f7ff 0%, #ffffff 100%);
+    border: 1px solid rgba(13, 110, 253, 0.15);
+    border-radius: 12px;
+    height: 100%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.award-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(13, 110, 253, 0.15);
+}
+
+.award-icon {
+    font-size: 2.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.award-title {
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.award-detail {
+    color: var(--secondary-color);
+    font-size: 0.95rem;
+    margin-bottom: 0.25rem;
+}
+
+.award-total {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    margin-bottom: 0;
+}
+
+/* Sponsor Cards */
+.sponsor-card {
+    background: white;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.sponsor-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.sponsor-logo {
+    max-width: 200px;
+    max-height: 80px;
+    object-fit: contain;
+}
+
+.sponsor-name {
+    font-weight: 600;
+    color: var(--secondary-color);
+    font-size: 0.95rem;
+    margin-bottom: 0;
+}
