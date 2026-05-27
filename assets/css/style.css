@@ -435,3 +435,76 @@ a:hover {
     font-size: 0.85rem;
     margin-top: 2px;
 }
+
+/* Accepted Papers Table */
+.papers-table {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    font-size: 0.93rem;
+}
+
+.papers-table thead th {
+    background-color: var(--primary-color);
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.85rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border: none;
+}
+
+.papers-id-col   { width: 110px; }
+.papers-format-col { width: 90px; }
+.papers-authors-col { width: 28%; }
+
+.papers-id {
+    font-size: 0.85rem;
+    color: #6c757d;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.papers-title {
+    font-weight: 600;
+    vertical-align: middle;
+    color: #1a1a2e;
+}
+
+.papers-authors {
+    color: #6c757d;
+    font-size: 0.88rem;
+    vertical-align: middle;
+}
+
+.papers-table tbody tr {
+    border-color: #e9ecef;
+}
+
+.papers-table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.badge-oral {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    background-color: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffc107;
+}
+
+.badge-poster {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    background-color: #e8eaf6;
+    color: #3949ab;
+    border: 1px solid #9fa8da;
+}
