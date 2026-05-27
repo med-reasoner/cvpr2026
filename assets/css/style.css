@@ -413,3 +413,25 @@ a:hover {
 .schedule-closing {
     background-color: #e8f5e9;
 }
+
+.oral-list {
+    list-style: none;
+    padding-left: 0;
+    font-size: 0.9rem;
+}
+
+.oral-list li {
+    padding: 6px 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.oral-list li:last-child {
+    border-bottom: none;
+}
+
+.oral-authors {
+    display: block;
+    color: #6c757d;
+    font-size: 0.85rem;
+    margin-top: 2px;
+}
